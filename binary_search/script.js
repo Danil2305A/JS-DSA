@@ -104,19 +104,19 @@ function improvedBinarySearchAll(array, key) {
 let array = [1, 2, 2, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let key = 2;
 
-console.log('Массив: ' + array);
-console.log('Ключ поиска: ' + key);
+console.log("Массив: " + array);
+console.log("Ключ поиска: " + key);
 
-console.log('Обычная версия бинарного поиска');
+console.log("Обычная версия бинарного поиска");
 
 let resultOne = binarySearchOne(array, key);
-console.log('Индекс найденного элемента: ' + resultOne);
+console.log("Индекс найденного элемента: " + resultOne);
 let resultAll = binarySearchAll(array, key);
-console.log('Индексы найденных элементов: ' + resultAll);
+console.log("Индексы найденных элементов: " + resultAll);
 
-console.log('Улучшенная версия бинарного поиска');
+console.log("Улучшенная версия бинарного поиска");
 
 resultOne = improvedBinarySearchOne(array, key);
-console.log('Индекс найденного элемента: ' + resultOne);
+console.log("Индекс найденного элемента: " + resultOne);
 resultAll = improvedBinarySearchAll(array, key);
-console.log('Индексы найденных элементов: ' + resultAll);
+console.log("Индексы найденных элементов: " + resultAll);
