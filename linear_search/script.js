@@ -1,3 +1,5 @@
+"use strict";
+
 function linearSearchOne(array, key) {
   for (let i = 0; i < array.length; i++) {
     if (array[i] === key) {
