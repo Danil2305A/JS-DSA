@@ -8,7 +8,6 @@ function binarySearchOne(array, key) {
     let middle = Math.floor((left + right) / 2);
     if (array[middle] === key) {
       return middle;
-      break;
     }
     if (array[middle] < key) {
       left = middle + 1;
